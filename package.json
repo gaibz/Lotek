@@ -1,0 +1,24 @@
+{
+  "name": "script-joiner",
+  "version": "1.0.0",
+  "description": "Simple Script Joiner for HTML, CSS And JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "example": "cd example && node joiner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaibz/script-joiner.git"
+  },
+  "author": "Herlangga Sefani <https://github.com/gaibz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaibz/script-joiner/issues"
+  },
+  "homepage": "https://github.com/gaibz/script-joiner#readme",
+  "dependencies": {
+    "deasync": "^0.1.20",
+    "terser": "^5.3.1"
+  }
+}
