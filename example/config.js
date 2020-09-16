@@ -10,7 +10,7 @@ let config = {
             // specify group name, for identifier
             name : "Production",
             // if true, then it will print out file location information inside output file
-            debug_mode : true,
+            debug_mode : false,
             js : {
                 files : [
                     "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
@@ -29,17 +29,28 @@ let config = {
             },
             css : {
                 files : [
-                    "./somedir/somefile.css"
+                    // "https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css",
+                    "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.1.1/css/fileinput.min.css",
+                    "./assets/src/css/style1.css",
+                    "./assets/src/css/style2.css"
                 ],
-                output : "./somedir/css/bundle.prod.css",
+                output : "./assets/dist/bundle.assets.production.min.css",
                 // For Css This is important, as inside of css files may contain url() linked to another directory
-                replaces : [
+                url_replace : [
                     {
-                        find : "css/",
-                        replace : "../"
+                        find : "assets/",
+                        replacement : "../"
                     },
                     // ... more
-                ]
+                ],
+                // Replace Log Output Filepath
+                replace_log_output : "./replacer_log.txt",
+                // compress output into minified version
+                minify : true,
+                // @see https://github.com/jakubpawlowicz/clean-css#constructor-options
+                minify_options: {
+                    // format: 'beautify'
+                }
             },
             html : {
                 files : [

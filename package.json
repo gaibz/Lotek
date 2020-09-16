@@ -1,7 +1,17 @@
 {
   "name": "script-joiner",
   "version": "1.0.1",
-  "keywords": ["HTML", "CSS", "JS", "JavaScript", "Cascading Style Sheet", "Joiner", "Combiner", "Merger", "Minifier"],
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS",
+    "JavaScript",
+    "Cascading Style Sheet",
+    "Joiner",
+    "Combiner",
+    "Merger",
+    "Minifier"
+  ],
   "description": "Simple Script Joiner for HTML, CSS And JavaScript",
   "main": "index.js",
   "scripts": {
@@ -19,6 +29,7 @@
   },
   "homepage": "https://github.com/gaibz/script-joiner#readme",
   "dependencies": {
+    "clean-css": "^4.2.3",
     "terser": "^5.3.1"
   }
 }
