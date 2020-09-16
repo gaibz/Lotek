@@ -12,16 +12,6 @@ class Joiner {
     }
 
     /**
-     * Set Config
-     * @param {object} config
-     * @see README.md
-     */
-    setConfig(config) {
-        this.config = config;
-        return this;
-    }
-
-    /**
      * Compile Into Bundle Script
      * @returns {Promise<unknown>}
      */
