@@ -1,9 +1,14 @@
 <h1 align="right">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</h1>
 
-# SCRIPT JOINER
-Simple Script Joiner (Combiner) and Minifier for HTML, CSS and JavaScript. Pretty helpfull for building asset bundle script into One File. For NodeJS
+# ABOUT
+Node Simple Script Joiner (Combiner) and Minifier for HTML, CSS and JavaScript. Pretty helpfull for building asset bundle script into One File.
 
-Crafted with :heart: by Herlangga Sefani (a.k.a Gaibz) 
+Just try it and you'll love it so much.
+
+#### Author
+
+Crafted with :heart: by [Herlangga Sefani (a.k.a Gaibz)](https://github.com/gaibz) 
+<hr />
 
 # ROADMAP
 <ul>
@@ -12,17 +17,20 @@ Crafted with :heart: by Herlangga Sefani (a.k.a Gaibz)
     <li>HTML Combiner & Minifier (On Progress)</li>
 </ul>
 
+<hr />
 
 # HOW TO'S 
 
 ### Installation
-`npm install @gaibz/script-joiner`
+```
+> npm install script-joiner --save-dev
+```
 
 ### Usage
 
 In `joiner.js` file
 ```javascript
-const Joiner = require("@gaib/script-joiner");
+const Joiner = require("script-joiner");
 
 const config = {
     groups : [
@@ -31,6 +39,7 @@ const config = {
                 name : "Production",
                 // if true, then it will print out file location information inside output file
                 debug_mode : true,
+                // configuration for JS File
                 js : {
                     files : [
                         "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js",
@@ -51,13 +60,18 @@ const config = {
         ]
 }
 
-new Joiner(config).compile().then((resp) => {
+new Joiner(config).compile().then(() => {
     console.log("Done.");
 }); 
 ```
+Then Simply run in command line
+```
+> node joiner.js
+```
 
+<hr />
 
-### Configuration explanation
+# Configuration
 <hr />
 <b>groups[] [Array]</b><br /> Groups is an array of multiple config to be bundled. <hr />
 

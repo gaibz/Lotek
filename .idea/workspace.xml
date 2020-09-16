@@ -20,17 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3829d899-6493-48a2-9e5d-4aed32e0253b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.example.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/assets/src/js/script1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/assets/src/js/script2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/joiner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FileReader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/JSCompiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,8 +94,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600231465526</updated>
-      <workItem from="1600231466766" duration="8725000" />
+      <workItem from="1600231466766" duration="11084000" />
     </task>
+    <task id="LOCAL-00001" summary="JS Compiler OK">
+      <created>1600240229745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600240229745</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,22 +120,30 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JS Compiler OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="JS Compiler OK" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="2106" height="629" key="GridCell.Tab.0.bottom" timestamp="1600238076541">
+    <state width="2106" height="629" key="GridCell.Tab.0.bottom" timestamp="1600243448918">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state width="2106" height="629" key="GridCell.Tab.0.bottom/0.0.3840.2120@0.0.3840.2120" timestamp="1600238076541" />
-    <state width="2106" height="629" key="GridCell.Tab.0.center" timestamp="1600238076541">
+    <state width="2106" height="629" key="GridCell.Tab.0.bottom/0.0.3840.2120@0.0.3840.2120" timestamp="1600243448918" />
+    <state width="2106" height="629" key="GridCell.Tab.0.center" timestamp="1600243448918">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state width="2106" height="629" key="GridCell.Tab.0.center/0.0.3840.2120@0.0.3840.2120" timestamp="1600238076541" />
-    <state width="2106" height="629" key="GridCell.Tab.0.left" timestamp="1600238076541">
+    <state width="2106" height="629" key="GridCell.Tab.0.center/0.0.3840.2120@0.0.3840.2120" timestamp="1600243448918" />
+    <state width="2106" height="629" key="GridCell.Tab.0.left" timestamp="1600243448918">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state width="2106" height="629" key="GridCell.Tab.0.left/0.0.3840.2120@0.0.3840.2120" timestamp="1600238076541" />
-    <state width="2106" height="629" key="GridCell.Tab.0.right" timestamp="1600238076541">
+    <state width="2106" height="629" key="GridCell.Tab.0.left/0.0.3840.2120@0.0.3840.2120" timestamp="1600243448918" />
+    <state width="2106" height="629" key="GridCell.Tab.0.right" timestamp="1600243448918">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state width="2106" height="629" key="GridCell.Tab.0.right/0.0.3840.2120@0.0.3840.2120" timestamp="1600238076541" />
+    <state width="2106" height="629" key="GridCell.Tab.0.right/0.0.3840.2120@0.0.3840.2120" timestamp="1600243448918" />
+    <state x="2122" y="796" key="Vcs.Push.Dialog.v2" timestamp="1600240231361">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2122" y="796" key="Vcs.Push.Dialog.v2/0.0.3840.2120@0.0.3840.2120" timestamp="1600240231361" />
   </component>
 </project>
