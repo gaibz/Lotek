@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3829d899-6493-48a2-9e5d-4aed32e0253b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1hZvX20LmCuAfnircUOjY2CYKO2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.59" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/example/assets/src/css/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Github\script-joiner\example\assets\src\css\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Github\script-joiner\example\assets\src\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="example" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="example" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.example" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3829d899-6493-48a2-9e5d-4aed32e0253b" name="Default Changelist" comment="" />
+      <created>1600231465526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600231465526</updated>
+      <workItem from="1600231466766" duration="19833000" />
+    </task>
+    <task id="LOCAL-00001" summary="JS Compiler OK">
+      <created>1600240229745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600240229745</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update README.md">
+      <created>1600244348162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600244348162</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Remove setConfig from index.js">
+      <created>1600244753483</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600244753483</updated>
+    </task>
+    <task id="LOCAL-00004" summary="CSS Compiler OK (Untested)">
+      <created>1600250975383</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600250975383</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Make documentation of CSS Compiler">
+      <created>1600323693618</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600323693618</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update README.md">
+      <created>1600323808898</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600323808898</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Set Default Config value">
+      <created>1600323919354</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600323919354</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JS Compiler OK" />
+    <MESSAGE value="Remove setConfig from index.js" />
+    <MESSAGE value="CSS Compiler OK (Untested)" />
+    <MESSAGE value="Make documentation of CSS Compiler" />
+    <MESSAGE value="Update README.md" />
+    <MESSAGE value="Set Default Config value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set Default Config value" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1954" height="629" key="GridCell.Tab.0.bottom" timestamp="1600323248442">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="1954" height="629" key="GridCell.Tab.0.bottom/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
+    <state width="1954" height="629" key="GridCell.Tab.0.center" timestamp="1600323248442">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="1954" height="629" key="GridCell.Tab.0.center/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
+    <state width="1954" height="629" key="GridCell.Tab.0.left" timestamp="1600323248442">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="1954" height="629" key="GridCell.Tab.0.left/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
+    <state width="1954" height="629" key="GridCell.Tab.0.right" timestamp="1600323248442">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="1954" height="629" key="GridCell.Tab.0.right/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
+    <state x="2122" y="796" key="Vcs.Push.Dialog.v2" timestamp="1600323920693">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2122" y="796" key="Vcs.Push.Dialog.v2/0.0.3840.2120@0.0.3840.2120" timestamp="1600323920693" />
+  </component>
+</project>
