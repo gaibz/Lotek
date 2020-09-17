@@ -1,7 +1,9 @@
 <h1 align="right">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</h1>
 
 # ABOUT
-Node Simple Script Joiner (Combiner) and Minifier for HTML, CSS and JavaScript. Pretty helpfull for building asset bundle script into One File.
+![Illustration](./example/assets/src/images/ScriptJoinerConcept.jpg "Illustration")
+
+Node Simple Script Joiner (Combiner) and Minifier for HTML, CSS and JavaScript. Pretty helpfull for building asset bundle script into One Small File.
 
 Just try it and you'll love it so much.
 
