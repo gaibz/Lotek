@@ -259,7 +259,7 @@ output file for saving replace log
 
 
 <b>groups[].css.minify [Boolean]</b><br /> 
-if true then it will minify the output of all code (Powered by [Terser](https://www.npmjs.com/package/terser)),  
+if true then it will minify the output of all code (Powered by [Clean-CSS](https://github.com/jakubpawlowicz/clean-css)),  
 see example output
 ```css
 /*! Code of original style1.css */
