@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3829d899-6493-48a2-9e5d-4aed32e0253b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/CSSCompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/CSSCompiler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/JSCompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/JSCompiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600231465526</updated>
-      <workItem from="1600231466766" duration="19684000" />
+      <workItem from="1600231466766" duration="19833000" />
     </task>
     <task id="LOCAL-00001" summary="JS Compiler OK">
       <created>1600240229745</created>
@@ -141,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600323808898</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Set Default Config value">
+      <created>1600323919354</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600323919354</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +169,8 @@
     <MESSAGE value="CSS Compiler OK (Untested)" />
     <MESSAGE value="Make documentation of CSS Compiler" />
     <MESSAGE value="Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
+    <MESSAGE value="Set Default Config value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set Default Config value" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1954" height="629" key="GridCell.Tab.0.bottom" timestamp="1600323248442">
@@ -183,9 +189,9 @@
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state width="1954" height="629" key="GridCell.Tab.0.right/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
-    <state x="2122" y="796" key="Vcs.Push.Dialog.v2" timestamp="1600323810271">
+    <state x="2122" y="796" key="Vcs.Push.Dialog.v2" timestamp="1600323920693">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state x="2122" y="796" key="Vcs.Push.Dialog.v2/0.0.3840.2120@0.0.3840.2120" timestamp="1600323810271" />
+    <state x="2122" y="796" key="Vcs.Push.Dialog.v2/0.0.3840.2120@0.0.3840.2120" timestamp="1600323920693" />
   </component>
 </project>
