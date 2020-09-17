@@ -4,9 +4,9 @@
 
 'use strict';
 
-const Joiner = require("../index");
+const Lotek = require("../index");
 const {config} = require("./config");
 
-new Joiner(config).compile().then((resp) => {
+new Lotek(config).compile().then((resp) => {
     console.log("Done.");
 });

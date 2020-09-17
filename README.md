@@ -3,7 +3,7 @@
 # ABOUT
 ![Illustration](./example/assets/src/images/ScriptJoinerConcept.jpg "Illustration")
 
-Node Simple Script Joiner (Combiner) and Minifier for HTML, CSS and JavaScript. Pretty helpfull for building asset bundle script into One Small File.
+<b>Lotek</b> is a Script Joiner / Combiner and Minifier for <b>HTML, CSS and JavaScript</b>. Pretty helpfull for building asset bundle script into One Small File.
 
 Just try it and you'll love it so much.
 
@@ -17,14 +17,14 @@ Crafted with :heart: by [Herlangga Sefani (a.k.a Gaibz)](https://github.com/gaib
 
 ### Installation
 ```
-> npm install script-joiner --save-dev
+> npm install lotek --save-dev
 ```
 
 ### Usage
 
 In `joiner.js` file
 ```javascript
-const Joiner = require("script-joiner");
+const Lotek = require("lotek");
 
 const config = {
     groups : [
@@ -119,7 +119,7 @@ const config = {
         ]
 }
 
-new Joiner(config).compile().then(() => {
+new Lotek(config).compile().then(() => {
     console.log("Done.");
 }); 
 ```

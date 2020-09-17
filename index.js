@@ -8,7 +8,7 @@ const JSCompiler = require("./lib/JSCompiler");
 const CSSCompiler = require("./lib/CSSCompiler");
 const HTMLCompiler = require("./lib/HTMLCompiler");
 
-class Joiner {
+class Lotek {
     constructor(config) {
         this.groups = config.groups;
     }
@@ -45,4 +45,4 @@ class Joiner {
     }
 }
 
-module.exports = Joiner;
+module.exports = Lotek;

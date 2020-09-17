@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3829d899-6493-48a2-9e5d-4aed32e0253b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/joiner.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/joiner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600340564786</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update README.md">
+      <created>1600340819990</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600340819990</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,10 +220,10 @@
     </state>
     <state width="1954" height="629" key="GridCell.Tab.0.right/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
     <state width="1638" height="260" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1600339369121" />
-    <state x="880" y="391" key="Vcs.Push.Dialog.v2" timestamp="1600340567900">
+    <state x="880" y="391" key="Vcs.Push.Dialog.v2" timestamp="1600340837842">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="2122" y="796" key="Vcs.Push.Dialog.v2/0.0.3840.2120@0.0.3840.2120" timestamp="1600323920693" />
-    <state x="880" y="391" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1600340567900" />
+    <state x="880" y="391" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1600340837842" />
   </component>
 </project>
