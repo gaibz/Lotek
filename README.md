@@ -3,7 +3,7 @@
 # ABOUT
 ![Illustration](./example/assets/src/images/ScriptJoinerConcept.jpg "Illustration")
 
-<b>Lotek</b> is a Script Joiner / Combiner and Minifier for <b>HTML, CSS and JavaScript</b>. Pretty helpfull for building asset bundle script into One Small File.
+<b>Lotek</b> is a Script (Joiner / Combiner / Minifier) for <b>HTML, CSS and JavaScript</b>. Pretty helpfull for building asset bundle script into One Small File.
 
 Just try it and you'll love it so much.
 

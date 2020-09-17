@@ -1,6 +1,6 @@
 {
   "name": "lotek",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "keywords": [
     "HTML",
     "CSS",
@@ -12,7 +12,7 @@
     "Merger",
     "Minifier"
   ],
-  "description": "Simple Script Joiner for HTML, CSS And JavaScript",
+  "description": "Superb Script (Joiner / Combiner / Minfier) for HTML, CSS And JavaScript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gaibz/script-joiner.git"
+    "url": "git+https://github.com/gaibz/Lotek.git"
   },
   "author": "Herlangga Sefani <https://github.com/gaibz>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gaibz/script-joiner/issues"
+    "url": "https://github.com/gaibz/Lotek/issues"
   },
-  "homepage": "https://github.com/gaibz/script-joiner#readme",
+  "homepage": "https://github.com/gaibz/Lotek#readme",
   "devDependencies": {
     "clean-css": "^4.2.3",
     "html-minifier": "^4.0.0",
