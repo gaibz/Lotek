@@ -8,14 +8,6 @@ Just try it and you'll love it so much.
 #### Author
 
 Crafted with :heart: by [Herlangga Sefani (a.k.a Gaibz)](https://github.com/gaibz) 
-<hr />
-
-# ROADMAP
-<ul>
-    <li><strike>JS Combiner & Minifier</strike> (Done) </li>
-    <li><strike>CSS Combiner & Minifier</strike> (Done)</li>
-    <li>HTML Combiner & Minifier (On Progress)</li>
-</ul>
 
 <hr />
 
@@ -66,7 +58,7 @@ const config = {
                     ],
                     output : "./assets/dist/bundle.assets.production.min.css",
                     // For Css This is important, as inside of css files may contain url() linked to another directory
-                    url_replace : [
+                    url_replaces : [
                         {
                             find : "assets/",
                             replacement : "../"
@@ -81,7 +73,46 @@ const config = {
                     minify_options: {
                         // format: 'beautify'
                     }
-                }   
+                },
+                
+                // Configuration for HTML File
+                html : {
+                    files : [
+                        "./dev.html"
+                    ],
+                    output : "./index.html",
+                    // you may want to change some code inside html for joining
+                    replaces : [
+                        {
+                            find : `<link href="./assets/src/css/style1.css" rel="stylesheet" />`,
+                            replacement : `<link href='./assets/dist/bundle.assets.production.min.css' rel='stylesheet' />`,
+                        },
+                        {
+                            find : `<link href="./assets/src/css/style2.css" rel="stylesheet" />`,
+                            replacement : "",
+                        },
+                        {
+                            find : `<script src="./assets/src/js/script1.js"></script>`,
+                            replacement : `<script src="./assets/dist/bundle.assets.production.min.js"></script>`,
+                        },
+                        {
+                            find : `<script src="./assets/src/js/script2.js"></script>`,
+                            replacement : "",
+                        },
+                        // ... more
+                    ],
+                    // minify html using html-minifier
+                    minify : true,
+                    // @see https://www.npmjs.com/package/html-minifier#options-quick-reference
+                    minify_options : {
+                        removeAttributeQuotes: true,
+                        removeComments : true,
+                        collapseWhitespace : true,
+                        minifyJS : true,
+                        minifyCSS : true,
+                    }
+                }
+   
             }
         ]
 }
@@ -196,7 +227,7 @@ Array of files to be bundled, you can put url from http / https
 Output file of combined and minified css
 <hr />
 
-<b>groups[].css.url_replace [Array of Object]</b><br /> 
+<b>groups[].css.url_replaces [Array of Object]</b><br /> 
 For CSS Sometimes you need to specify the path of assets inside CSS, this thing will act like url translator.<br /> 
 For example inside an `@import url(...)` or `background:url(...)` <br />
 With this configuration it will automatically detect your asset url and refactor into new url by specify `find` and `replacement`. <br />
@@ -218,7 +249,7 @@ css = {
         "./assets/src/css/style.css"
     ],
     output : "./assets/dist/bundle.css",
-    url_replace : [
+    url_replaces : [
         {
             find : "assets/",
             replacement : "../"        
@@ -280,4 +311,98 @@ body{cursor:pointer;background:url(../src/css/images/sample1.png)}body{border:1p
 
 <b>groups[].css.minify_options [Object]</b><br /> 
 Since I used Clean-CSS for minify, please visit [Clean CSS Options](https://github.com/jakubpawlowicz/clean-css#constructor-options) for better explanation
+<hr />
+
+
+
+#### Configuration for HTML Files
+<hr />
+
+
+<b>groups[].html [Object]</b><br /> 
+Object of HTML bundle configuration
+<hr />
+
+<b>groups[].html.files [Array]</b><br /> 
+Array of files to be bundled, you can put url from http / https
+<hr />
+
+<b>groups[].html.output [String]</b><br /> 
+Output file of combined and minified html
+<hr />
+
+<b>groups[].css.replaces [Array of Object]</b><br /> 
+Find and Replace content inside HTML. This is usefull if you want to automatically change source script for development and production. 
+Just see example (dev.html) :  
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Some Title</title>
+    <link href="./assets/src/css/style1.css" rel="stylesheet" />
+    <link href="./assets/src/css/style2.css" rel="stylesheet" />
+</head>
+<body>
+    <script src="./assets/src/js/script1.js"></script>
+    <script src="./assets/src/js/script2.js"></script>
+</body>
+</html>
+```
+
+and you set the config like this (./joiner.js): 
+```javascript
+/*! Config example */
+html = {
+    files : [
+        "./dev.html"
+    ],
+    output : "./index.html",
+    replaces : [
+        {
+            find : `<link href="./assets/src/css/style1.css" rel="stylesheet" />`,
+            replacement : `<link href='./assets/dist/bundle.assets.production.min.css' rel='stylesheet' />`,
+        },
+        {
+            find : `<link href="./assets/src/css/style2.css" rel="stylesheet" />`,
+            replacement : "",
+        },
+        {
+            find : `<script src="./assets/src/js/script1.js"></script>`,
+            replacement : `<script src="./assets/dist/bundle.assets.production.min.js"></script>`,
+        },
+        {
+            find : `<script src="./assets/src/js/script2.js"></script>`,
+            replacement : "",
+        },    
+    ]
+}
+```
+
+And the output of HTML should be : 
+```html
+<!-- File : ./dev.html --> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Some Title</title>
+    <link href='./assets/dist/bundle.assets.production.min.css' rel='stylesheet' />
+    
+</head>
+<body>
+    <script src="./assets/dist/bundle.assets.production.min.js"></script>
+    
+</body>
+</html>
+```
+
+<hr />
+
+<b>groups[].html.minify [Boolean]</b><br /> 
+if true then it will minify the output of all code (Powered by [html-minifier](https://www.npmjs.com/package/html-minifier)).
+<hr />
+
+<b>groups[].html.minify_options [Object]</b><br /> 
+Since I used html-minifier for minify, please visit [HTML Minifier Options](https://www.npmjs.com/package/html-minifier#options-quick-reference) for better explanation
 <hr />

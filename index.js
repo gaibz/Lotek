@@ -20,23 +20,27 @@ class Joiner {
     compile() {
         return new Promise((resolve, reject) => {
             // read groups
+            let promises = [];
             this.groups.forEach((group) => {
-                // if (group.js) {
-                //     new JSCompiler(group.js, group.debug_mode).combine().then((resp) => {
-                //         console.log("JS File on Group : " + group.name + " has been combined.");
-                //     });
-                // }
-                // if(group.css) {
-                //     new CSSCompiler(group.css, group.debug_mode).combine().then((resp) => {
-                //         console.log("CSS File on Group : " + group.name + " has been combined.");
-                //     });
-                // }
-                if(group.html) {
-                    new HTMLCompiler(group.html, group.debug_mode).combine().then((resp) => {
-                        console.log("HTML File on Group : " + group.name + " has been combined.");
-                    });
+                if (group.js) {
+                    promises.push( new JSCompiler(group.js, group.debug_mode, group.name).combine() );
                 }
-            })
+                if (group.css) {
+                    promises.push( new CSSCompiler(group.css, group.debug_mode, group.name).combine() );
+                }
+                if (group.html) {
+                    promises.push( new HTMLCompiler(group.html, group.debug_mode, group.name).combine() );
+                }
+            });
+
+            Promise.all(promises).then((results) => {
+                results.forEach((result) => {
+                    console.log(result.type + " File on Group : " + result.group + " has been combined.");
+                });
+                resolve(results);
+            }).catch((err) => {
+                reject(err);
+            });
         });
     }
 }

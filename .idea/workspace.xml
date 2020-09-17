@@ -20,6 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3829d899-6493-48a2-9e5d-4aed32e0253b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/example/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/CSSCompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/CSSCompiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/HTMLCompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/HTMLCompiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/JSCompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/JSCompiler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,6 +171,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JS Compiler OK" />
@@ -173,22 +183,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="Set Default Config value" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1954" height="629" key="GridCell.Tab.0.bottom" timestamp="1600323248442">
-      <screen x="0" y="0" width="3840" height="2120" />
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom" timestamp="1600338307115">
+      <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="1954" height="629" key="GridCell.Tab.0.bottom/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
-    <state width="1954" height="629" key="GridCell.Tab.0.center" timestamp="1600323248442">
-      <screen x="0" y="0" width="3840" height="2120" />
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1600338307115" />
+    <state width="1638" height="260" key="GridCell.Tab.0.center" timestamp="1600338307115">
+      <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="1954" height="629" key="GridCell.Tab.0.center/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
-    <state width="1954" height="629" key="GridCell.Tab.0.left" timestamp="1600323248442">
-      <screen x="0" y="0" width="3840" height="2120" />
+    <state width="1638" height="260" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1600338307115" />
+    <state width="1638" height="260" key="GridCell.Tab.0.left" timestamp="1600338307114">
+      <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="1954" height="629" key="GridCell.Tab.0.left/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
-    <state width="1954" height="629" key="GridCell.Tab.0.right" timestamp="1600323248442">
-      <screen x="0" y="0" width="3840" height="2120" />
+    <state width="1638" height="260" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1600338307114" />
+    <state width="1638" height="260" key="GridCell.Tab.0.right" timestamp="1600338307115">
+      <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="1954" height="629" key="GridCell.Tab.0.right/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
+    <state width="1638" height="260" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1600338307115" />
     <state x="2122" y="796" key="Vcs.Push.Dialog.v2" timestamp="1600323920693">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>

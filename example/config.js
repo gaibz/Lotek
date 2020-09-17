@@ -77,7 +77,7 @@ let config = {
                     },
                     // ... more
                 ],
-                minify : true,
+                minify : false,
                 minify_options : {
                     removeAttributeQuotes: true,
                     removeComments : true,

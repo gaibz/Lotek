@@ -1,1 +1,1 @@
-url('./images/sample1.png') => url('./../src/css/./images/sample1.png')
+url('./images/sample1.png') => url('./assets/src/css/./images/sample1.png')
