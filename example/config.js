@@ -54,21 +54,37 @@ let config = {
             },
             html : {
                 files : [
-                    "/var/www/index.dev.html"
+                    "./dev.html"
                 ],
-                output : "/var/www/index.html",
+                output : "./index.html",
                 // you may want to change some code inside html for joining
                 replaces : [
                     {
-                        find : "%stylesheet%",
-                        replace : "<link href='./somedir/css/bundle.prod.css' rel='stylesheet' />",
+                        find : `<link href="./assets/src/css/style1.css" rel="stylesheet" />`,
+                        replacement : `<link href='./assets/dist/bundle.assets.production.min.css' rel='stylesheet' />`,
                     },
                     {
-                        find : "%javascript%",
-                        replace : "<script src='./somedir/js/bundle.prod.js'></script>",
+                        find : `<link href="./assets/src/css/style2.css" rel="stylesheet" />`,
+                        replacement : "",
+                    },
+                    {
+                        find : `<script src="./assets/src/js/script1.js"></script>`,
+                        replacement : `<script src="./assets/dist/bundle.assets.production.min.js"></script>`,
+                    },
+                    {
+                        find : `<script src="./assets/src/js/script2.js"></script>`,
+                        replacement : "",
                     },
                     // ... more
-                ]
+                ],
+                minify : true,
+                minify_options : {
+                    removeAttributeQuotes: true,
+                    removeComments : true,
+                    collapseWhitespace : true,
+                    minifyJS : true,
+                    minifyCSS : true,
+                }
             }
         }
     ]

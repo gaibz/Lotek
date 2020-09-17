@@ -199,8 +199,8 @@ Output file of combined and minified css
 <b>groups[].css.url_replace [Array of Object]</b><br /> 
 For CSS Sometimes you need to specify the path of assets inside CSS, this thing will act like url translator.<br /> 
 For example inside an `@import url(...)` or `background:url(...)` <br />
-With this configuration it will automatically detect your asset url and refactor into new url by specify `find` and `replace`. <br />
-the Object should contain : `find` and `replace` key.
+With this configuration it will automatically detect your asset url and refactor into new url by specify `find` and `replacement`. <br />
+the Object should contain : `find` and `replacement` key.
 
 If you have a css file like this (./assets/src/css/style.css) : 
 ```css
@@ -221,7 +221,7 @@ css = {
     url_replace : [
         {
             find : "assets/",
-            replace : "../"        
+            replacement : "../"        
         }
     ]
 }
