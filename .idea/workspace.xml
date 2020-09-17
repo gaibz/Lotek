@@ -20,17 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3829d899-6493-48a2-9e5d-4aed32e0253b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example/assets/src/css/images/sample1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/assets/src/css/style1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/assets/src/css/style2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/CSSCompiler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/assets/dist/bundle.assets.production.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/example/assets/dist/bundle.assets.production.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/example/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/FileReader.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/File.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/JSCompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/JSCompiler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/replacer_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/example/replacer_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/CSSCompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/CSSCompiler.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +100,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600231465526</updated>
-      <workItem from="1600231466766" duration="15221000" />
+      <workItem from="1600231466766" duration="19311000" />
     </task>
     <task id="LOCAL-00001" summary="JS Compiler OK">
       <created>1600240229745</created>
@@ -128,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600244753483</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CSS Compiler OK (Untested)">
+      <created>1600250975383</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600250975383</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,28 +151,29 @@
     <MESSAGE value="JS Compiler OK" />
     <MESSAGE value="Update README.md" />
     <MESSAGE value="Remove setConfig from index.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove setConfig from index.js" />
+    <MESSAGE value="CSS Compiler OK (Untested)" />
+    <option name="LAST_COMMIT_MESSAGE" value="CSS Compiler OK (Untested)" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2106" height="629" key="GridCell.Tab.0.bottom" timestamp="1600249676801">
+    <state width="1954" height="629" key="GridCell.Tab.0.bottom" timestamp="1600323248442">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state width="2106" height="629" key="GridCell.Tab.0.bottom/0.0.3840.2120@0.0.3840.2120" timestamp="1600249676801" />
-    <state width="2106" height="629" key="GridCell.Tab.0.center" timestamp="1600249676800">
+    <state width="1954" height="629" key="GridCell.Tab.0.bottom/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
+    <state width="1954" height="629" key="GridCell.Tab.0.center" timestamp="1600323248442">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state width="2106" height="629" key="GridCell.Tab.0.center/0.0.3840.2120@0.0.3840.2120" timestamp="1600249676800" />
-    <state width="2106" height="629" key="GridCell.Tab.0.left" timestamp="1600249676800">
+    <state width="1954" height="629" key="GridCell.Tab.0.center/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
+    <state width="1954" height="629" key="GridCell.Tab.0.left" timestamp="1600323248442">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state width="2106" height="629" key="GridCell.Tab.0.left/0.0.3840.2120@0.0.3840.2120" timestamp="1600249676800" />
-    <state width="2106" height="629" key="GridCell.Tab.0.right" timestamp="1600249676801">
+    <state width="1954" height="629" key="GridCell.Tab.0.left/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
+    <state width="1954" height="629" key="GridCell.Tab.0.right" timestamp="1600323248442">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state width="2106" height="629" key="GridCell.Tab.0.right/0.0.3840.2120@0.0.3840.2120" timestamp="1600249676801" />
-    <state x="2122" y="796" key="Vcs.Push.Dialog.v2" timestamp="1600244754872">
+    <state width="1954" height="629" key="GridCell.Tab.0.right/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
+    <state x="2122" y="796" key="Vcs.Push.Dialog.v2" timestamp="1600250977170">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state x="2122" y="796" key="Vcs.Push.Dialog.v2/0.0.3840.2120@0.0.3840.2120" timestamp="1600244754872" />
+    <state x="2122" y="796" key="Vcs.Push.Dialog.v2/0.0.3840.2120@0.0.3840.2120" timestamp="1600250977170" />
   </component>
 </project>

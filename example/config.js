@@ -30,7 +30,7 @@ let config = {
             css : {
                 files : [
                     // "https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css",
-                    "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.1.1/css/fileinput.min.css",
+                    // "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/5.1.1/css/fileinput.min.css",
                     "./assets/src/css/style1.css",
                     "./assets/src/css/style2.css"
                 ],

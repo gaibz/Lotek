@@ -1,0 +1,1 @@
+url('./images/sample1.png') => url('./../src/css/./images/sample1.png')
