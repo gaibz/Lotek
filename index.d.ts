@@ -6,6 +6,10 @@ declare module "lotek" {
   type Group = {
     name?: string;
     debug_mode?: boolean;
+
+    /**
+     * @description configuration for JS file
+     */
     js?: {
       files?: string[];
       output?: string;
@@ -15,6 +19,10 @@ declare module "lotek" {
       minify_options?: CompressOptions;
       [k: string]: any;
     };
+
+    /**
+     * @description configuration for css file
+     */
     css?: {
       files?: string[];
       output?: string;
@@ -29,7 +37,7 @@ declare module "lotek" {
     };
 
     /**
-     * configuration for HTML file
+     * @description configuration for HTML file
      */
     html?: {
       files?: string[];
