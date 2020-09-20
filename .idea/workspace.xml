@@ -26,10 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3829d899-6493-48a2-9e5d-4aed32e0253b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.all-contributorsrc" beforeDir="false" afterPath="$PROJECT_DIR$/.all-contributorsrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600567021304</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update README.md and adding Contributors">
+      <created>1600569622333</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600569622333</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +307,8 @@
     <MESSAGE value="change repo name" />
     <MESSAGE value="Release v1.2.2" />
     <MESSAGE value="Add Jest Unit Testing (Currently working on File and HTMLCompiler lib)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Jest Unit Testing (Currently working on File and HTMLCompiler lib)" />
+    <MESSAGE value="Update README.md and adding Contributors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md and adding Contributors" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1638" height="210" key="GridCell.Tab.0.bottom" timestamp="1600567676141">
@@ -326,10 +331,10 @@
     </state>
     <state width="1954" height="629" key="GridCell.Tab.0.right/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
     <state width="1638" height="210" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1600567676141" />
-    <state x="880" y="391" key="Vcs.Push.Dialog.v2" timestamp="1600567023383">
+    <state x="880" y="391" key="Vcs.Push.Dialog.v2" timestamp="1600569632413">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state x="2122" y="796" key="Vcs.Push.Dialog.v2/0.0.3840.2120@0.0.3840.2120" timestamp="1600323920693" />
-    <state x="880" y="391" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1600567023383" />
+    <state x="880" y="391" key="Vcs.Push.Dialog.v2/0.23.1680.981@0.23.1680.981" timestamp="1600569632413" />
   </component>
 </project>
