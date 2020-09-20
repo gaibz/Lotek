@@ -1,4 +1,7 @@
 <h1 align="right">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</h1>
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # ABOUT
 ![Illustration](./example/assets/src/images/ScriptJoinerConcept.jpg "Illustration")
@@ -408,3 +411,22 @@ if true then it will minify the output of all code (Powered by [html-minifier](h
 <b>groups[].html.minify_options [Object]</b><br /> 
 Since I used html-minifier for minify, please visit [HTML Minifier Options](https://www.npmjs.com/package/html-minifier#options-quick-reference) for better explanation
 <hr />
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/RayhanHamada"><img src="https://avatars0.githubusercontent.com/u/40117807?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mocchapine</b></sub></a><br /><a href="https://github.com/gaibz/Lotek/commits?author=RayhanHamada" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
