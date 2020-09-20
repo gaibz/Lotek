@@ -5,10 +5,51 @@
 
 # ABOUT
 ![Illustration](./example/assets/src/images/ScriptJoinerConcept.jpg "Illustration")
-
+<p>
 <b>Lotek</b> is a Script (Joiner / Combiner / Minifier) for <b>HTML, CSS and JavaScript</b>. Pretty helpfull for building asset bundle script into One Small File.
+</p>
 
-Just try it and you'll love it so much.
+<p>
+<b>Lotek</b> is not <b>WebPack</b>. But it has some similiarity. 
+While <b>WebPack</b> is for Modular Project. <br />
+<b>Lotek</b> is a script combiner for Basic JS (Think like jQuery, Bootstrap, etc...). 
+
+in example if you have this code in your HTML files : 
+```html
+<html>
+<body>
+<!-- ..... -->
+    <!-- Because i use jquery a lot, 
+    even if I use modern framework like Svelte, Vue, etc.. 
+    I still need to include jQuery (Because it has so many library :D ) -->
+    <script src="./jquery.min.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <script src="https://somecdn.com/somejquerylibrary.min.js"></script>
+    <script src="./yourlibscript.js"></script>
+    <script src="./anotherscript.js"></script>
+    <script src="./anotherscript2.js"></script>
+    <script src="./yourwebpackscript.min.js"></script>
+<!-- ..... -->
+</body>
+</html>
+```
+In my case, that code is affecting page speed load performance because browser will try to download all those script.
+
+<b>Lotek</b> will combine them into 1 script file and make page load much faster and efficient. And also it will make code more simple like this : 
+```html
+<html>
+<body>
+<!-- ..... -->
+    <script src="./lotek.bundle.min.js"></script>
+    <script src="./yourwebpackscript.min.js"></script>
+<!-- ..... -->
+</body>
+</html>
+```
+
+</p>
+
+Just give it a try, and you'll love it so much.
 
 #### Author
 
@@ -411,17 +452,18 @@ if true then it will minify the output of all code (Powered by [html-minifier](h
 <b>groups[].html.minify_options [Object]</b><br /> 
 Since I used html-minifier for minify, please visit [HTML Minifier Options](https://www.npmjs.com/package/html-minifier#options-quick-reference) for better explanation
 <hr />
-## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+## Contributors 
+
+Thanks to all of these wonderfull people who make this project awesome.
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/RayhanHamada"><img src="https://avatars0.githubusercontent.com/u/40117807?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mocchapine</b></sub></a><br /><a href="https://github.com/gaibz/Lotek/commits?author=RayhanHamada" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/gaibz"><img src="https://avatars3.githubusercontent.com/u/31369738?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Herlangga Sefani</b></sub></a><br /><a href="https://github.com/gaibz/Lotek/commits?author=gaibz" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/RayhanHamada"><img src="https://avatars0.githubusercontent.com/u/40117807?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mocchapine</b></sub></a><br /><a href="https://github.com/gaibz/Lotek/commits?author=RayhanHamada" title="Code">💻</a></td>
   </tr>
 </table>
 
@@ -429,5 +471,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

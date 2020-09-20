@@ -11,19 +11,19 @@
   "commitConvention": "none",
   "contributors": [
     {
+        "login": "gaibz",
+        "name": "Herlangga Sefani",
+        "avatar_url": "https://avatars3.githubusercontent.com/u/31369738?v=4",
+        "profile": "https://github.com/gaibz",
+        "contributions": [
+          "code"
+        ]
+    },
+    {
       "login": "RayhanHamada",
       "name": "Mocchapine",
       "avatar_url": "https://avatars0.githubusercontent.com/u/40117807?v=4",
       "profile": "https://github.com/RayhanHamada",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "gaibz",
-      "name": "Herlangga Sefani",
-      "avatar_url": "https://avatars3.githubusercontent.com/u/31369738?v=4",
-      "profile": "https://github.com/gaibz",
       "contributions": [
         "code"
       ]

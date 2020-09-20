@@ -37,6 +37,7 @@
     "terser": "^5.3.1"
   },
   "devDependencies": {
+    "all-contributors-cli": "^6.17.3",
     "jest": "^26.4.2"
   }
 }
