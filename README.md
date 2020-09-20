@@ -1,6 +1,6 @@
 <h1 align="right">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</h1>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # ABOUT
@@ -421,6 +421,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/RayhanHamada"><img src="https://avatars0.githubusercontent.com/u/40117807?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mocchapine</b></sub></a><br /><a href="https://github.com/gaibz/Lotek/commits?author=RayhanHamada" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/gaibz"><img src="https://avatars3.githubusercontent.com/u/31369738?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Herlangga Sefani</b></sub></a><br /><a href="https://github.com/gaibz/Lotek/commits?author=gaibz" title="Code">💻</a></td>
   </tr>
 </table>
 
