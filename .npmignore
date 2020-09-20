@@ -2,3 +2,4 @@ node_modules
 example
 .idea
 config.example.js
+__tests__

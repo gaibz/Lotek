@@ -15,7 +15,7 @@
   "description": "Superb Script (Joiner / Combiner / Minfier) for HTML, CSS And JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "example": "cd example && node joiner.js"
   },
   "repository": {
@@ -35,5 +35,8 @@
     "clean-css": "^4.2.3",
     "html-minifier": "^4.0.0",
     "terser": "^5.3.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
   }
 }

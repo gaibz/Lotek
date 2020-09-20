@@ -16,11 +16,24 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3829d899-6493-48a2-9e5d-4aed32e0253b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/__tests__/file.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/htmlcompiler.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/__tests__/temp.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/CSSCompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/CSSCompiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/HTMLCompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/HTMLCompiler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/JSCompiler.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/JSCompiler.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +47,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="sourcemap-support" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -60,7 +78,9 @@
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.61" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -71,12 +91,64 @@
       <recent name="D:\Github\script-joiner\example\assets\src\js" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="example" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.Testing for combining Files">
+    <configuration name="Reading local file" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/file.test.js" />
+      <test-names>
+        <test-name value="Reading local file" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Reading remote file" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/file.test.js" />
+      <test-names>
+        <test-name value="Reading remote file" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing for combining Files" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/htmlcompiler.test.js" />
+      <test-names>
+        <test-name value="Testing for combining Files" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Testing with empty config" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__tests__/htmlcompiler.test.js" />
+      <test-names>
+        <test-name value="Testing with empty config" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="example" />
+        <script value="test" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -84,7 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.example" />
+        <item itemvalue="Jest.Testing for combining Files" />
+        <item itemvalue="Jest.Reading remote file" />
+        <item itemvalue="Jest.Reading local file" />
+        <item itemvalue="Jest.Testing with empty config" />
+        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +270,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -215,26 +303,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="Release v1.2.2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="260" key="GridCell.Tab.0.bottom" timestamp="1600348655528">
+    <state width="1638" height="210" key="GridCell.Tab.0.bottom" timestamp="1600566752237">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="1954" height="629" key="GridCell.Tab.0.bottom/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
-    <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1600348655528" />
-    <state width="1638" height="260" key="GridCell.Tab.0.center" timestamp="1600348655527">
+    <state width="1638" height="210" key="GridCell.Tab.0.bottom/0.23.1680.981@0.23.1680.981" timestamp="1600566752237" />
+    <state width="1638" height="210" key="GridCell.Tab.0.center" timestamp="1600566752236">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="1954" height="629" key="GridCell.Tab.0.center/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
-    <state width="1638" height="260" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1600348655527" />
-    <state width="1638" height="260" key="GridCell.Tab.0.left" timestamp="1600348655526">
+    <state width="1638" height="210" key="GridCell.Tab.0.center/0.23.1680.981@0.23.1680.981" timestamp="1600566752236" />
+    <state width="1638" height="210" key="GridCell.Tab.0.left" timestamp="1600566752236">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="1954" height="629" key="GridCell.Tab.0.left/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
-    <state width="1638" height="260" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1600348655526" />
-    <state width="1638" height="260" key="GridCell.Tab.0.right" timestamp="1600348655527">
+    <state width="1638" height="210" key="GridCell.Tab.0.left/0.23.1680.981@0.23.1680.981" timestamp="1600566752236" />
+    <state width="1638" height="210" key="GridCell.Tab.0.right" timestamp="1600566752236">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
     <state width="1954" height="629" key="GridCell.Tab.0.right/0.0.3840.2120@0.0.3840.2120" timestamp="1600323248442" />
-    <state width="1638" height="260" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1600348655527" />
+    <state width="1638" height="210" key="GridCell.Tab.0.right/0.23.1680.981@0.23.1680.981" timestamp="1600566752236" />
     <state x="880" y="391" key="Vcs.Push.Dialog.v2" timestamp="1600348311466">
       <screen x="0" y="23" width="1680" height="981" />
     </state>
